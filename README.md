@@ -127,3 +127,12 @@ npm install && npm rebuild node-sass && npm run dev
 ```
 
 After building it will start on `localhost:8080`
+
+### Running in 2021
+
+We're going to have to revert to a more stable build of Node in order to run it local and to do this we're going to have use n to manage the versions
+
+- `npm install -g n`
+- `sudo n 14`
+
+Now if we check the version of node with `node --version` it should return v14.16.0 which should allow us to run the radar
